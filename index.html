@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kopi Senja - Seduh Kebahagiaan</title>
+    <link href="https://googleapis.com" rel="stylesheet">
+    <!-- Menghubungkan ke file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Konten Kiri -->
+    <div class="main-content">
+        <header>
+            <div class="logo">☕ Kopi <span>Senja</span></div>
+            <nav>
+                <a href="#menu">Menu</a>
+                <a href="#promo">Promo</a>
+                <a href="#tentang">Tentang Kami</a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <h1>Seduh Kebahagiaan di Setiap Cangkir, Langsung ke Meja Anda.</h1>
+            <p>Pilih biji kopi lokal pilihan, kustom rasa sesukamu, dan pesan dalam hitungan detik.</p>
+            <button class="btn-primary" onclick="document.getElementById('menu').scrollIntoView({behavior: 'smooth'})">Pesan Sekarang</button>
+        </section>
+
+        <section id="menu">
+            <div class="section-header">
+                <h2>Menu Pilihan Hari Ini</h2>
+                <div class="categories">
+                    <button class="active" onclick="filterMenu('all', this)">Semua</button>
+                    <button onclick="filterMenu('kopi', this)">Kopi</button>
+                    <button onclick="filterMenu('non-kopi', this)">Non-Kopi</button>
+                    <button onclick="filterMenu('camilan', this)">Camilan</button>
+                </div>
+            </div>
+
+            <div class="menu-grid" id="menu-container">
+                <!-- Daftar menu akan diisi otomatis oleh JavaScript -->
+            </div>
+        </section>
+    </div>
+
+    <!-- Keranjang Belanja Kanan -->
+    <aside class="cart-sidebar">
+        <div>
+            <div class="cart-header">Keranjang Saya (<span id="cart-count">0</span> Item)</div>
+            <div class="cart-items" id="cart-items">
+                <p class="empty-msg">Keranjang masih kosong. Yuk pilih kopimu!</p>
+            </div>
+        </div>
+
+        <div class="cart-footer">
+            <div class="total-row">
+                <span>Total</span>
+                <span id="cart-total">Rp0</span>
+            </div>
+            
+            <p style="font-size: 12px; color: #C5B8B0; margin-bottom: 8px;">Pilih Pembayaran:</p>
+            <div class="payment-methods">
+                <div class="pay-badge selected" onclick="selectPayment(this)">QRIS</div>
+                <div class="pay-badge" onclick="selectPayment(this)">GoPay</div>
+                <div class="pay-badge" onclick="selectPayment(this)">ShopeePay</div>
+            </div>
+
+            <button class="btn-checkout" onclick="checkout()">Lanjut Pembayaran</button>
+        </div>
+    </aside>
+
+    <!-- Menghubungkan ke file JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
 
