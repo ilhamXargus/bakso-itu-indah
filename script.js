@@ -1,10 +1,10 @@
 const menuData = [
-    { id: 7, name: "Es Kopi Susu Senja", category: "kopi", price: 22000, desc: "Espresso, fresh milk, dan gula aren organik.", img: "https://images.unsplash.com/photo-1681366074674-13850edc6d6c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" },
-    { id: 2, name: "Classic Cappuccino", category: "kopi", price: 24000, desc: "Perpaduan espresso pekat dan foam susu lembut.", img: "https://unsplash.com" },
-    { id: 3, name: "Creamy Matcha Latte", category: "non-kopi", price: 25000, desc: "Pure matcha asli Uji Jepang dengan susu segar.", img: "https://unsplash.com" },
-    { id: 4, name: "Flaky Butter Croissant", category: "camilan", price: 18000, desc: "Croissant renyah panggang hangat dengan mentega Prancis.", img: "https://unsplash.com" },
-    { id: 5, name: "Iced Americano", category: "kopi", price: 18000, desc: "Double shot espresso Arabika Gayo dingin menyegarkan.", img: "https://unsplash.com" },
-    { id: 6, name: "Artisan Peach Tea", category: "non-kopi", price: 20000, desc: "Teh hitam pilihan dengan potongan buah persik manis.", img: "https://unsplash.com" }
+    { id: 7, name: "Es Kopi Susu Senja", category: "kopi", price: 22000, desc: "Espresso, fresh milk, dan gula aren organik.", img: "https://images.unsplash.com/photo-1558884903-bbe59d6285ef?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"},
+    { id: 2, name: "Classic Cappuccino", category: "kopi", price: 24000, desc: "Perpaduan espresso pekat dan foam susu lembut.", img: "https://images.unsplash.com/photo-1558884903-bbe59d6285ef?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" },
+    { id: 3, name: "Creamy Matcha Latte", category: "non-kopi", price: 25000, desc: "Pure matcha asli Uji Jepang dengan susu segar.", img: "https://images.unsplash.com/photo-1558884903-bbe59d6285ef?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" },
+    { id: 4, name: "Flaky Butter Croissant", category: "camilan", price: 18000, desc: "Croissant renyah panggang hangat dengan mentega Prancis.", img: "https://images.unsplash.com/photo-1558884903-bbe59d6285ef?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" },
+    { id: 5, name: "Iced Americano", category: "kopi", price: 18000, desc: "Double shot espresso Arabika Gayo dingin menyegarkan.", img: "https://images.unsplash.com/photo-1558884903-bbe59d6285ef?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" },
+    { id: 6, name: "Artisan Peach Tea", category: "non-kopi", price: 20000, desc: "Teh hitam pilihan dengan potongan buah persik manis.", img: "https://images.unsplash.com/photo-1558884903-bbe59d6285ef?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" },
     { 
         id: 1, 
         name: "Es Kopi Susu Senja", 
